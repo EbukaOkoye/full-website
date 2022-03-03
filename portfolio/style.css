@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    box-shadow: 8px 4px 4px 3px rgba(128, 128, 128, 0.452);
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.btn-dark {
+    background: rgb(0, 0, 0);
+}
+
+.image-divider {
+    min-height: 45vh;
+    background: url('assets/img/tow-truck.jpg');
+    background-image: fixed;
+}
+
+.pic-divider {
+    min-height: 45vh;
+    background: url('assets/img/tow-truck.jpg');
+    background-image: fixed;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: monospace;
+    margin-top: 5rem !important;
+}
+
+.briefcase {
+    font-size: 50px !important;
+}
+
+#mission {
+    margin: 0 auto !important;
+}
+
+#vision {
+    margin: 0 auto !important;
+    font-size: 50px !important;
+}
+
+.bar {
+    z-index: 1000 !important;
+    margin: 4.8rem 0;
+}
+
+.bars {
+    z-index: 1100 !important;
+}
+
+.footerBanner {
+    min-height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)), url('assets/img/pasture-clipart.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.footerButton {
+    /* border: 2px solid white; */
+    display: block;
+    margin: 10px auto;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.footerSocials {
+    margin: 10px auto;
+}
+
+.circleTop {
+    max-width: 80px;
+    min-height: 30px;
+    position: fixed;
+    z-index: 15000;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .whatwedo {
+        margin-top: 3rem;
+    }
+
+    .bars {
+        transform: translateY(-10vh);
+    }
+
+    .bar {
+        display: none !important;
+    }
+
+    body {
+        margin-top: 3rem;
+    }
+
+    
+
+
+
+}
